@@ -32,5 +32,4 @@
             $('.modalFormShow').modal('show');
         })
     </script>
-
 @endsection

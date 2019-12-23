@@ -14,6 +14,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
@@ -106,6 +109,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1Ut8iZnqqas9sznxHT2D3HkBcMg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravelLearnAjax/app/Http/Controllers/StudentController.php" />
@@ -150,11 +154,34 @@
       <workItem from="1576979623214" duration="11245000" />
       <workItem from="1577025844268" duration="1222000" />
       <workItem from="1577063386979" duration="13100000" />
-      <workItem from="1577095956164" duration="3954000" />
+      <workItem from="1577095956164" duration="4281000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit but already normal crud success by ajax">
+      <created>1577112787372</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577112787373</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit but already normal crud success by ajax" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit but already normal crud success by ajax" />
   </component>
 </project>
