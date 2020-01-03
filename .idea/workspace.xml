@@ -1,7 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79d458e0-dfe2-4709-82a1-e8c210da06d2" name="Default Changelist" comment="" />
+    <list default="true" id="79d458e0-dfe2-4709-82a1-e8c210da06d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/post/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Posts/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Posts/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_22_021802_create_posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_12_29_101805_create_posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1000166485.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1021765404.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/1737319945.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1021775080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1032632047.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1064582516.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1065738513.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/106959483.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1085530086.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1093408199.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1136143239.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/114980004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1186513003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1253528092.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1270300089.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1293752588.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1305234856.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1311536482.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1317991206.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1322593894.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1371085003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1394956275.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1442209293.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1462972512.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1489395948.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1521287814.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/152232386.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1525190323.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1534437500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/154312112.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1547243660.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1608660483.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1612219705.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1699263115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1736321745.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1756545398.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1784216400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1818612239.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1841000723.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1851903853.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1946800953.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/197108818.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/2004489887.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/2005974121.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/2129682178.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/2140704519.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/218637674.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/23126271.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/24853978.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/252902193.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/257932829.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/266844256.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/274854998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/291354331.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/294002498.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/298929267.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/305651303.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/319794978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/349387443.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/349684452.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/39080173.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/440324225.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/46034198.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/484857297.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/488827178.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/517497949.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/527749490.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/543307211.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/550349379.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/551867672.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/600208875.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/605129079.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/606121006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/617430492.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/63909132.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/658346672.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/66276041.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/669398574.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/681077203.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/68830700.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/693481262.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/694193425.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/697833043.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/701541528.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/718698954.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/743709252.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/755937785.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/764167134.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/765566040.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/771677751.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/817752016.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/868397222.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/893900260.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/947794356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/957826401.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/9768141.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/982336890.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/post/modal.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/modal.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/post/posts.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/student.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student.blade.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,10 +214,13 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1Ut8iZnqqas9sznxHT2D3HkBcMg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravelLearnAjax/app/Http/Controllers/StudentController.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
@@ -154,7 +262,15 @@
       <workItem from="1576979623214" duration="11245000" />
       <workItem from="1577025844268" duration="1222000" />
       <workItem from="1577063386979" duration="13100000" />
-      <workItem from="1577095956164" duration="4281000" />
+      <workItem from="1577095956164" duration="14319000" />
+      <workItem from="1577124676055" duration="111000" />
+      <workItem from="1577164526171" duration="605000" />
+      <workItem from="1577446454139" duration="595000" />
+      <workItem from="1577549984531" duration="5181000" />
+      <workItem from="1577588951021" duration="32422000" />
+      <workItem from="1577668533048" duration="15621000" />
+      <workItem from="1577757024438" duration="1319000" />
+      <workItem from="1577853283126" duration="922000" />
     </task>
     <task id="LOCAL-00001" summary="First commit but already normal crud success by ajax">
       <created>1577112787372</created>
@@ -163,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577112787373</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First commit but already normal crud done using by ajax">
+      <created>1577112851436</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577112851436</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,14 +297,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit but already normal crud success by ajax" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit but already normal crud success by ajax" />
+    <MESSAGE value="First commit but already normal crud done using by ajax" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit but already normal crud done using by ajax" />
   </component>
 </project>

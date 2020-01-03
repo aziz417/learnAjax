@@ -75,7 +75,7 @@
         });
 
         $(document).ready(function(){
-            //Get all and show show in dataTables
+            //Get all and show in dataTables
             $('#user_table').DataTable({
                 processing: true,
                 serverSide: true,

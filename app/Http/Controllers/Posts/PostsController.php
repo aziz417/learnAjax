@@ -3,7 +3,10 @@
 namespace App\Http\Controllers\Posts;
 
 use App\Http\Controllers\Controller;
+use App\Post;
+use App\Student;
 use Illuminate\Http\Request;
+use Yajra\DataTables\DataTables;
 
 class PostsController extends Controller
 {
@@ -12,9 +15,22 @@ class PostsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        return view('post.posts');
+
+        if($request->ajax()){
+            $data = Post::latest()->get();
+
+            return DataTables::of($data)->addcolumn('action', function ($data){
+                $button = '<button type="button" name="edit" id="'.$data->id.'"
+                class="btn btn-primary btn-sm edit">Edit</button>';
+                $button .= ' ';
+                $button .= '<button type="button" name="delete" id="'.$data->id.'" class="
+                delete btn btn-danger btn-sm">Delete</button>';
+                return $button;
+            })->rawColumns(['action'])->make(true);
+        }
+        return view('post.post');
     }
 
     /**
@@ -35,7 +51,16 @@ class PostsController extends Controller
      */
     public function store(Request $request)
     {
-        dd($request->file);
+
+        $image   = $request->file('img');
+        $newName = rand(). '.'.$image->getClientOriginalExtension();
+        $image->move(public_path('images'), $newName);
+        $request['image'] = $newName;
+        $request['tcheck'] = implode(",",$request->hobby);
+        $post = new Post($request->all());
+        $post->save();
+        return response($newName);
+
     }
 
     /**
@@ -55,9 +80,12 @@ class PostsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Request $request,$id)
     {
-        //
+        if($request->ajax()) {
+            $data = Post::findOrFail($id)->get();
+            return response()->json(['data' => $data]);
+        }
     }
 
     /**
